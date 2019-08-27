@@ -7,7 +7,7 @@ I wish that I had taken more detailed notes of this process, but I didn't. Never
 Want to practice your SQL, but don't have a database to work with? Here's a solution.
 
 ### Create and host a database on your own computer
-MySQL documentation: https://dev.mysql.com/doc/sakila/en/
+MySQL documentation for Sakila database: https://dev.mysql.com/doc/sakila/en/
 
 How to make your computer into a server with MySQL Server:
 https://dev.mysql.com/downloads/mysql/
