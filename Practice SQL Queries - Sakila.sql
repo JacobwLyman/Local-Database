@@ -26,7 +26,7 @@ FROM film;
 
 SELECT 
   rating
-  , AVG(rental_duration)
+  , avg(rental_duration)
 FROM film 
 GROUP BY rating;
 
@@ -102,7 +102,7 @@ WHERE first_name = 'penelope'
 ORDER BY last_name DESC;
 
 SELECT 
-* 
+ * 
 FROM actor 
 WHERE first_name <> 'penelope' 
 ORDER BY last_name ASC;
@@ -140,7 +140,7 @@ WHERE trim(first_name)='grace';
 -- Trim unnecessary text from data --
 SELECT 
   description 
-  , TRIM(LEADING 'A ' FROM description) description2 
+  , trim(LEADING 'A ' FROM description) description2 
 FROM film_text;
 
 -- You can't use an alias in the WHERE clause | Also, AS is optional --
@@ -155,26 +155,26 @@ ORDER BY nameLength DESC;
 SELECT 
   * 
 FROM actor 
-WHERE YEAR(last_update) = 2006; 
+WHERE year(last_update) = 2006; 
 
 SELECT 
   * 
 FROM actor 
-WHERE DATE(last_update) = '2006-02-15';
+WHERE date(last_update) = '2006-02-15';
 
 SELECT 
   actor_id
   , first_name
   , last_name 
-  , DATE_FORMAT(last_update, '%m-%d-%Y') AS last_update 
+  , date_format(last_update, '%m-%d-%Y') AS last_update 
 FROM actor 
-WHERE  DATE(last_update) = '2006-02-15';
+WHERE  date(last_update) = '2006-02-15';
 
 SELECT 
   actor_id
   , first_name
   , last_name 
-  , DATE_FORMAT(last_update, '%D %M %Y') AS last_update 
+  , date_format(last_update, '%D %M %Y') AS last_update 
 FROM actor;
 
 -- How many rows belong to a specific district? --
