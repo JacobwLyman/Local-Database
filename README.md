@@ -1,4 +1,4 @@
-# Pratice your SQL and database skills
+# Turn your PC into a personal server and pratice your SQL/database skills
 
 During my last semester in college, I was brushing up on many topics that I had studied throughout my education. One of those topics was the language SQL. I had taken a class and a few online courses on SQL and Database Design & Mangement before, but I was hoping to improve my skills before I graduated and entered a career in ```Data```. There was one problem, though: I didn't have a working environment to practice my SQL.
 
