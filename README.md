@@ -5,11 +5,12 @@ During my last semester in college, I was brushing up on many topics that I had 
 This repository is currently a work in progress to provide the necessary instructions to create a server environment and database within your computer, along with how to query that database/server.
 
 ### Create and host a database on your own computer
-MySQL documentation for Sakila database: https://dev.mysql.com/doc/sakila/en/
+MySQL documentation for Sakila database: 
+- https://dev.mysql.com/doc/sakila/en/
 
 How to make your computer into a server with MySQL Server:
-https://dev.mysql.com/downloads/mysql/
+- https://dev.mysql.com/downloads/mysql/
+- https://www.makeuseof.com/tag/install-mysql-windows/
 
-https://www.makeuseof.com/tag/install-mysql-windows/
-
-Other users: https://github.com/jOOQ/jOOQ/tree/master/jOOQ-examples/Sakila/mysql-sakila-db
+Related Repositories: 
+- https://github.com/jOOQ/jOOQ/tree/master/jOOQ-examples/Sakila/mysql-sakila-db
