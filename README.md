@@ -4,8 +4,6 @@ During my last semester in college, I was brushing up on many topics that I had 
 
 This repository is currently a work in progress to provide the necessary instructions to create a server environment and database within your computer, along with how to query that database/server.
 
-Want to practice your SQL, but don't have a database to work with? Here's a solution.
-
 ### Create and host a database on your own computer
 MySQL documentation for Sakila database: https://dev.mysql.com/doc/sakila/en/
 
