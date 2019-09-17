@@ -2,7 +2,7 @@ During my last semester in college, I was brushing up on many topics that I had 
 
 ### Turn your PC into a personal server and pratice your SQL/database skills
 
-This repository is currently a work in progress to provide the necessary instructions to create a server environment and database within your computer, along with how to query that database/server.
+_This repository is currently a work in progress to provide the necessary instructions to create a server environment and database within your computer, along with how to query that database/server._
 
 ### Create and host a database on your own computer
 MySQL documentation for Sakila database: 
